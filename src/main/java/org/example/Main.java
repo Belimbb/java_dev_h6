@@ -8,7 +8,6 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        /*
         //INIT DATABASE
         try {
             DatabaseInitService.initDatabase();
@@ -23,8 +22,6 @@ public class Main {
             throw new RuntimeException("Some problems with populate DB");
         }
 
-
-         */
         //FIND LONGEST PROJECT
         try {
             List<LongestProject> longestProjects = new DatabaseQueryService().findLongestProject();
